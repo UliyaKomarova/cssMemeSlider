@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>CSS meme slider</title>
+  </head>
+  <body>
+    <div class="slider">
+      <input
+        class="slider-nav-item"
+        type="radio"
+        id="meme-1"
+        name="meme"
+        checked
+      />
+      <input class="slider-nav-item" type="radio" id="meme-2" name="meme" />
+      <input class="slider-nav-item" type="radio" id="meme-3" name="meme" />
+      <input class="slider-nav-item" type="radio" id="meme-4" name="meme" />
+
+      <div class="slider-content">
+        <label class="slider-label" for="meme-1">
+          <img class="slider-image" src="./assets/1.jpg" alt="" />
+          <div class="slider-text">Strong statement</div>
+        </label>
+
+        <label class="slider-label" for="meme-2">
+          <img class="slider-image" src="./assets/2.jpg" alt="" />
+          <div class="slider-text">World's best boss</div>
+        </label>
+
+        <label class="slider-label" for="meme-3">
+          <img class="slider-image" src="./assets/3.jpg" alt="" />
+          <div class="slider-text">Question</div>
+        </label>
+
+        <label class="slider-label" for="meme-4">
+          <img class="slider-image" src="./assets/4.jpg" alt="" />
+          <div class="slider-text">This is fine</div>
+        </label>
+      </div>
+    </div>
+  </body>
+</html>
